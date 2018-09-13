@@ -10,36 +10,11 @@
   <!-- Mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="../../lesson2-focus/01-basic-form/main.css">
+  <link rel="stylesheet" href="../../../lesson2-focus/01-basic-form/main.css">
   <link href='http://fonts.googleapis.com/css?family=Courgette|Roboto:400,300' rel='stylesheet' type='text/css'>
-  <style>
-    .sign-up {
-      font-size: 14px;
-      color: #3F51B5;
-      margin-bottom: 8px;
-    }
-    .header {
-      position: absolute;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      background-color: #2196F3;
-      color: white;
-      visibility: hidden;
-      padding: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-    }
-    .header.success {
-      visibility: visible;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="header">
-    <div class="secret"></div>
-
-  </div>
   <div class="wrapper">
     <header>
       <div class="container">
@@ -128,7 +103,9 @@
               </div>
 
               <div class="inline-control sign-up col-1">
-                <input type="checkbox" checked name="jLetter" id="jLetter"> Receive promotional offers?
+                <label>
+                  <input type="checkbox" checked name="jLetter"> Receive promotional offers?
+                </label>
               </div>
 
               <div class="inline-control submit-form col-1">
@@ -167,7 +144,6 @@
       return false;
     });
   </script>
-  <script type="text/javascript" src="label.js"></script>
 </body>
 
 </html>
